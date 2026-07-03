@@ -1,0 +1,44 @@
+# ── Dependencies (rebuilt inside Docker) ─────────────────────────────────────
+node_modules
+npm-debug.log
+pnpm-debug.log
+
+# ── Git ───────────────────────────────────────────────────────────────────────
+.git
+.gitignore
+.github
+
+# ── Logs & cache ─────────────────────────────────────────────────────────────
+logs/
+*.log
+cache/
+.instance.lock
+
+# ── Temp command/event files ──────────────────────────────────────────────────
+scripts/cmds/tmp/
+scripts/cmds/cache/
+scripts/events/tmp/
+scripts/events/data/leaveAttachment/
+scripts/events/data/welcomeAttachment/
+
+# ── Database data (fresh DB in container) ─────────────────────────────────────
+database/data/
+!database/data/.gitkeep
+
+# ── Cloned repos ──────────────────────────────────────────────────────────────
+ashik/
+v2dash/
+goatv2/
+Main/
+/tmp/
+
+# ── Editor / OS ───────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ── Dev tools ────────────────────────────────────────────────────────────────
+*.md
+*.zip
+*.rar

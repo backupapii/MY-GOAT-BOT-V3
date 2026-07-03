@@ -1,0 +1,17 @@
+# nixpacks.toml — Railway NIXPACKS build config
+# canvas v2.9.1 uses pre-built binaries for Node 20 linux-x64
+# so no system package compilation is needed.
+
+[phases.install]
+cmds = [
+  "npm install --legacy-peer-deps --registry https://registry.npmjs.org"
+]
+
+[phases.build]
+cmds = [
+  "node scripts/patch-fca.js || true",
+  "mkdir -p scripts/cmds/cache scripts/cmds/tmp scripts/cmds/fonts scripts/events/tmp scripts/events/data/leaveAttachment scripts/events/data/welcomeAttachment database/data cache logs"
+]
+
+[start]
+cmd = "node index.js"

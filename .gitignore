@@ -1,0 +1,81 @@
+node_modules
+fb-chat-api.dev
+obfcode.js
+minify.js
+backupOrigin.js
+createVersion.js
+createVersionAndCommit.js
+checkOriginCodeChanged.js
+*.zip
+*.dev.*
+*.rar
+*test.*
+*.test.*
+test.js
+
+# ─── SECRETS & CREDENTIALS (NEVER COMMIT) ───────────────────────────────────
+.env
+.env.*
+*.env
+appstate.json
+appstate*.json
+cookies.json
+fbstate.json
+session.json
+token.txt
+credentials.json
+*.pem
+*.key
+*.p12
+
+# account.txt is intentionally committed so it persists across deploys
+# Remove account.txt from this list if you don't want it committed
+# account.txt
+
+# ─── LOGS ────────────────────────────────────────────────────────────────────
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# ─── INSTANCE LOCK ───────────────────────────────────────────────────────────
+.instance.lock
+
+# ─── CACHE & TEMP FILES ──────────────────────────────────────────────────────
+cache/
+*.tmp
+*.temp
+/tmp/
+
+# ─── DATABASE DATA ───────────────────────────────────────────────────────────
+database/data/*
+!database/data/.gitkeep
+
+# ─── COMMAND CACHE/TEMP ──────────────────────────────────────────────────────
+scripts/cmds/tmp/*
+!scripts/cmds/tmp/.gitkeep
+scripts/cmds/assets/guide
+!scripts/cmds/assets/guide/.gitkeep
+scripts/cmds/cache/
+scripts/cmds/fonts/
+
+# ─── EVENTS TEMP ─────────────────────────────────────────────────────────────
+scripts/events/tmp/*
+scripts/events/data/leaveAttachment
+scripts/events/data/welcomeAttachment
+!scripts/events/tmp/.gitkeep
+
+# ─── CLONED REPOS (never commit) ─────────────────────────────────────────────
+ashik/
+v2dash/
+goatv2/
+Main/
+
+# ─── SESSION SECRET FILE ─────────────────────────────────────────────────────
+dashboard/.session_secret
+
+# ─── OS / EDITOR ─────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

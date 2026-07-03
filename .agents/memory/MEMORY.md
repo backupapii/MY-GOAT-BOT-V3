@@ -1,0 +1,8 @@
+- [FCA sendMessage group bug](fca-sendmessage-bug.md) — xnil-ypb-fca uses `<= 15` digit threshold breaking 15-digit group IDs; fix: `< 15` + pass isGroup explicitly.
+- [SHAKIL BOT V3 config fixes](shakil-bot-config-fixes.md) — adminOnly+whiteListMode disabled, noPrefix/reactUnsend added to handler, Bot.js+Baby.js double-reply fixed.
+- [SHAKIL BOT V3 repo sync](shakil-bot-repo-sync.md) — alias conflicts, dead API fixes, system folder copy pattern when syncing from CYBER-SHAKIL/Goat-bot-v3 repo.
+- [SHAKIL BOT V3 command fixes](shakil-bot-command-fixes.md) — Up.js truncation fix, missing cmds created, gemini model, video multi-API, alias conflicts with Up2/alive.
+- [SHAKIL BOT V3 stability fixes](shakil-bot-stability.md) — offline fix: MQTT restart MUST stay 600000ms (10min) on Replit; proxy drops connection at ~10-15min; increasing it causes silent drops.
+- [SHAKIL BOT V3 security hardening](shakil-bot-security.md) — hardcoded API keys moved to process.env; gitignore improved; command role audit complete; 382 cmds / 58 admin-only.
+- [SHAKIL BOT V3 author locks](shakil-bot-author-locks.md) — merged commands have author locks (process.exit); must remove on import; cleanup script can truncate files; recover from git HEAD.
+- [SHAKIL BOT V3 cmd count](shakil-bot-cmd-count.md) — 373 cmds / 15 events, 0 errors. Alias conflicts: up.js must NOT have "uptime" (Up2.js) or "status" (alive.js). Deploy: Dockerfile on Railway/Render.

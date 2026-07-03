@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: shakil-bot-v3
+    runtime: node
+    plan: free
+    buildCommand: npm install --legacy-peer-deps --registry https://registry.npmjs.org && node scripts/patch-fca.js || true && mkdir -p scripts/cmds/cache scripts/cmds/tmp scripts/cmds/fonts scripts/events/tmp scripts/events/data/leaveAttachment scripts/events/data/welcomeAttachment database/data cache logs
+    startCommand: node index.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: APPSTATE
+        sync: false
+      - key: SESSION_SECRET
+        generateValue: true
+    healthCheckPath: /health
+    autoDeploy: false
