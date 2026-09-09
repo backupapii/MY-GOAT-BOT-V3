@@ -20,7 +20,7 @@
 <br>
 
 > ### 👑 𝗠𝗗 𝗦𝗛𝗔𝗞𝗜𝗟 𝗛𝗢𝗦𝗦𝗘𝗡 — CYBER SHAKIL
-> *The most powerful Bangladeshi Facebook Messenger Bot, built on GoatBot V2*
+> *The most powerful Bangladeshi Facebook Messenger Bot, built on GoatBot V3*
 
 <br>
 
@@ -331,7 +331,7 @@ SHAKIL BOT V3 comes with a powerful **CYBER SHAKIL AI Auto Fixer**:
 ```
 -fix <file.js>        → AI scans & fixes a command file
 -fix scan <file.js>   → Scan only (no changes)
--fix scanbot          → Scan ALL 266 commands at once
+-fix scanbot          → Scan ALL 380 commands at once
 -fix create <name>    → AI creates a brand new command
 -fix reload <cmd>     → Hot-reload a command without restart
 -fix backup list      → List all saved backups
@@ -445,7 +445,7 @@ Use the included `render.yaml`. Set `NODE_VERSION=20.20.0` in environment.
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=18&duration=4000&pause=800&color=FF6B9D&center=true&vCenter=true&width=600&lines=Made+with+❤️+by+MD+SHAKIL+HOSSEN;SHAKIL+BOT+V3+—+266+Commands;Bangladesh+🇧🇩+Powered+by+AI;All+fake+forks+are+NOT+authorized" alt="Footer Typing SVG">
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=18&duration=4000&pause=800&color=FF6B9D&center=true&vCenter=true&width=600&lines=Made+with+❤️+by+MD+SHAKIL+HOSSEN;SHAKIL+BOT+V3+—+380+Commands;Bangladesh+🇧🇩+Powered+by+AI;All+fake+forks+are+NOT+authorized" alt="Footer Typing SVG">
 
 <br><br>
 
