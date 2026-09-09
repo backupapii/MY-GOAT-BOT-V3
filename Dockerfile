@@ -27,8 +27,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 # ── Install dependencies (layer-cached separately from source code) ───────────
 COPY package.json ./
-RUN npm install --legacy-peer-deps --ignore-scripts
-
+COPY scripts/patch-fca.js scripts/patch-fca.js
+RUN npm install --legacy-peer-deps
+COPY . .
 # ── Copy source code ──────────────────────────────────────────────────────────
 COPY . .
 
