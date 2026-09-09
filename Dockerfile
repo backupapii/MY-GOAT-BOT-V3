@@ -27,7 +27,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 # ── Install dependencies (layer-cached separately from source code) ───────────
 COPY package.json ./
-RUN npm install --legacy-peer-deps
+RUN npm install --legacy-peer-deps --ignore-scripts
 
 # ── Copy source code ──────────────────────────────────────────────────────────
 COPY . .
