@@ -12,7 +12,7 @@
 [![Platform](https://img.shields.io/badge/Platform-Facebook_Messenger-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com)
 [![Node](https://img.shields.io/badge/Node.js-v20+-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org)
 [![Status](https://img.shields.io/badge/Status-🟢_ONLINE-brightgreen?style=for-the-badge)](.)
-[![Commands](https://img.shields.io/badge/Commands-266-orange?style=for-the-badge&logo=terminal&logoColor=white)](.)
+[![Commands](https://img.shields.io/badge/Commands-380-orange?style=for-the-badge&logo=terminal&logoColor=white)](.)
 [![Events](https://img.shields.io/badge/Events-13-red?style=for-the-badge)](.)
 [![FCA](https://img.shields.io/badge/FCA-xnil--ypb--fca_v1.1.3-blue?style=for-the-badge)](.)
 [![License](https://img.shields.io/badge/License-Custom-yellow?style=for-the-badge)](.)
@@ -92,8 +92,8 @@
 ╔══════════════════════════════════════════════════════════╗
 ║                  SHAKIL BOT V3 — STATS                  ║
 ╠══════════════════════════════════════════════════════════╣
-║  📦 Total Commands  :  266                               ║
-║  🎉 Total Events    :  13                                ║
+║  📦 Total Commands  :  380                               ║
+║  🎉 Total Events    :  15                                ║
 ║  🔧 FCA Engine      :  xnil-ypb-fca v1.1.3              ║
 ║  🟢 Node.js         :  v20.20.0                         ║
 ║  📦 Version         :  3.5.35                            ║
