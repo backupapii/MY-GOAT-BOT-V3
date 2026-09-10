@@ -62,7 +62,7 @@ module.exports = {
 
       // যদি গ্রুপের কোনো ছবি না থাকে তবে শুধু টেক্সট পাঠাবে
       if (!threadInfo.imageSrc) {
-        return api.sendMessage(`🔧「 𝐆𝐂 𝐍𝐚𝐦𝐞 」: ${threadName}\n🔧「 𝐆𝐫𝐨𝐮𝐩 𝐈𝐃 」: ${id}\n🔧「 𝐀𝐩𝐩𝐫𝐨𝐯𝐚𝐥 」: ${pd}\n🔧「 𝐄𝐦𝐨𝐣𝐢 」: ${icon}\n🔧「 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧 」: 𝐈𝐧𝐜𝐥𝐮𝐝𝐢𝐧𝐠 ${threadMem} 𝐌𝐞𝐦𝐛𝐞𝐫𝐬\n🔧「 𝐍𝐮𝐦𝐛𝐞𝐫 𝐎𝐟 𝐌𝐚𝐥𝐞𝐬 」: ${nam}\n🔧「 𝐍𝐮𝐦𝐛𝐞𝐫 𝐎𝐟 𝐅𝐞𝐦𝐚𝐥𝐞𝐬 」: ${nu}\n\n𝐌𝐚𝐝𝐞 𝐖𝐢𝐭𝐡 ❤️ 𝐁𝐲: 𝐅𝐚𝐫𝐡𝐚𝐧 𝐊𝐡𝐚𝐧`, event.threadID);
+        return api.sendMessage(`🔧「 𝐆𝐂 𝐍𝐚𝐦𝐞 」: ${threadName}\n🔧「 𝐆𝐫𝐨𝐮𝐩 𝐈𝐃 」: ${id}\n🔧「 𝐀𝐩𝐩𝐫𝐨𝐯𝐚𝐥 」: ${pd}\n🔧「 𝐄𝐦𝐨𝐣𝐢 」: ${icon}\n🔧「 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧 」: 𝐈𝐧𝐜𝐥𝐮𝐝𝐢𝐧𝐠 ${threadMem} 𝐌𝐞𝐦𝐛𝐞𝐫𝐬\n🔧「 𝐍𝐮𝐦𝐛𝐞𝐫 𝐎𝐟 𝐌𝐚𝐥𝐞𝐬 」: ${nam}\n🔧「 𝐍𝐮𝐦𝐛𝐞𝐫 𝐎𝐟 𝐅𝐞𝐦𝐚𝐥𝐞𝐬 」: ${nu}\n\n𝐌𝐚𝐝𝐞 𝐖𝐢𝐭𝐡 ❤️ 𝐁𝐲: 𝗠𝗗 𝗦𝗛𝗔𝗞𝗜𝗟 𝗛𝗢𝗦𝗦𝗘𝗡`, event.threadID);
       }
 
       return request(encodeURI(`${threadInfo.imageSrc}`))
