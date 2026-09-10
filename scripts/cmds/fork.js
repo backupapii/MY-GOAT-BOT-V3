@@ -16,7 +16,7 @@ module.exports = {
 
   onStart: async function ({ message }) {
 
-    const repoLink = "https://github.com/CYBER-SHAKIL/GOAT-BOT-V3";
+    const repoLink = "https://github.com/backupapii/MY-GOAT-BOT-V3.git";
 
     const msg = `
 ╭━━━━━━━━━━━━━━━━━━╮
